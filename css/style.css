@@ -1,0 +1,22 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Components design --- */
+@import url("components/avatar.css");
+/* TODO: import new components */
+
+/* --- Fonts & colors --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+}
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+}
+.text-center {
+  text-align: center;
+}
